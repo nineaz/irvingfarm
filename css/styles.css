@@ -1,0 +1,96 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(images/home_main_desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-content: center;
+}
+header .bouton-shop p {
+  background-color: white;
+  color:black;
+  margin-left: 550px;
+  width:100px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2px;
+}
+.chevron p a{
+  color: white;
+  margin-left: 600px;
+  width:100px;
+  text-align: center;
+
+}
+
+.band-black {
+  position: relative;
+  background-color: black;
+  color: white;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 10px;
+}
+.band-black .textleft {
+margin-left: 220px;
+padding-top: 5px;
+}
+
+.band-black .textright {
+margin-right: 200px;
+display: flex;
+justify-content: space-between;
+padding-top: 5px;
+}
+.band-black .textright .card {
+margin-left: 70px;
+}
+.hirving-white {
+  display: flex;
+  font-size: 15px;
+  width: 71%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hirving-white img {
+  height: 94px;
+  width: 163px;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.hirving-white p {
+  padding-left: 28px;
+  padding-right: 28px;
+  position:relative;top:50px;
+}
+.grey {
+  width: 100%;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+
+}
+.grey .photos {
+  width: 80%;
+  margin: 0 auto;
+}
+.grey img {
+  width: 300px;
+  height:280px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
