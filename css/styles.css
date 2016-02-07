@@ -136,7 +136,7 @@ margin-left: 70px;
   .capucas .text-center {
     height: 300px;
     background-color: white;
-    margin-left: 700px;
+    margin-left: 744px;
     margin-right: 100px;
     border-bottom: 3px solid black ;
     border-top: 3px solid black ;
@@ -153,4 +153,36 @@ margin-left: 70px;
     margin-left: 20px;
     margin-right: 20px;
     letter-spacing: 3px;
+  }
+  .whole {
+    display:flex;
+
+}
+  .whole .whole-text {
+
+  height: 300px;
+  background-color: white;
+  margin-left: 277px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  border-bottom: 3px solid black ;
+  border-top: 3px solid black ;
+
+  }
+  
+  .whole .whole-text p,h3{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 28px;
+  
+}
+  .whole-photo img {
+    margin-left: 15px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    height: 300px;
+    width: 441px;
   }
