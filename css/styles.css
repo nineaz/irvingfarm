@@ -222,10 +222,12 @@ footer {
 }
 .ok {
   list-style-type: none;
+  font-size: 11px;
+  line-height: 20px;
 }
 .okey li  {
   display: inline;
   list-style-type: none;
-  
+
 }
 
