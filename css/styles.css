@@ -125,3 +125,32 @@ margin-left: 70px;
     margin-right: 14px;
     border-bottom: 3px solid black ;
   }
+  .capucas {
+    background-image: url(images/slideshow-1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+  }
+  .capucas .text-center {
+    height: 300px;
+    background-color: white;
+    margin-left: 700px;
+    margin-right: 100px;
+    border-bottom: 3px solid black ;
+    border-top: 3px solid black ;
+
+  }
+   .capucas .text-center p,h3 {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 28px;
+   }
+  .capucas .text-center .big-text  {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+  }
