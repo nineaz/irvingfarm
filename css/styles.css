@@ -3,31 +3,9 @@ body {
   height: 100%;
 }
 nav {
-  background-color: black;
-  height: 50px;
-  position: top;
-  display: flex;
-  justify-content:space-between;
-  align-items:center;
+  display: none;
 }
-nav .icon1 i {
-  margin-bottom: 15px;
-  color: white;
-  margin-left: 40px;
-   margin-top: 20px;
-}
-nav .icon2 i {
-  margin-bottom: 15px;
-  margin-top: 20px;
-  color: white;
 
-}
-nav .icon3 i {
-  margin-bottom: 15px;
-  color: white;
-  margin-top: 20px;
-  margin-right: 40px;
-}
 header {
   width: 100%;
   height: 600px;
@@ -291,6 +269,31 @@ ul li  {
   header {
      background-image: url(images/home_main_mobile_720.jpg);
   }
+  nav{background-color: black;
+  height: 50px;
+  position: top;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;    
+  }
+  nav .icon1 i{
+  margin-bottom: 15px;
+  color: white;
+  margin-left: 40px;
+   margin-top: 20px;
+}
+nav .icon2 i {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: white;
+
+}
+nav .icon3 i {
+  margin-bottom: 15px;
+  color: white;
+  margin-top: 20px;
+  margin-right: 40px;
+}
  .band-black{
     display: none;
   }
@@ -389,8 +392,6 @@ footer .list-respon2 {
 header .bouton-shop p {
   display: none;
 }
-nav {
 
-}
 }
  
