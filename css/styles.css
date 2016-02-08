@@ -105,9 +105,7 @@ margin-left: 70px;
     margin-right: 14px;
     border-bottom: 3px solid black ;
   }
-  .grey .big2 {
 
-  }
   .grey .big2 p {
     background-color: white;
     height: 50px;
@@ -153,6 +151,7 @@ margin-left: 70px;
     margin-left: 20px;
     margin-right: 20px;
     letter-spacing: 3px;
+    margin-top:-16px;
   }
   .whole {
     display:flex;
@@ -230,4 +229,72 @@ footer {
   list-style-type: none;
 
 }
+          /*media queries*/ 
+@media screen and (max-width: 480px){
 
+  header {
+     background-image: url(images/home_main_mobile_720.jpg);
+  }
+ .band-black{
+    display: none;
+  }
+  .hirving-white {
+    display: none;
+  }
+  .grey {
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+  }
+  .grey .big2 {
+
+  margin:0 auto;
+  margin-top: 70px;
+ }
+ .grey .big3 {
+  margin:0 auto;
+  margin-top: 70px;
+ }
+ .grey .big1{
+  margin:0 auto;
+  margin-top: 70px;
+ }
+ .capucas {
+  height: 100%;
+ }
+  .capucas .text-center {
+    margin:0 auto;
+    height: 100%;
+    width: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+  }
+     .capucas .text-center p,h3{
+    line-height : normal;
+  }
+  .capucas .text-center .big-text {
+    letter-spacing : normal;
+    margin-top: -5px;
+  }
+ .whole  {
+
+  height: 100%;
+  margin:0 auto;
+  display: flex;
+  flex-direction:column;
+}
+  .whole .whole-text{
+    margin: 0 auto;
+    margin-top: 70px;
+
+  }
+ 
+  .whole .whole-text p,h3{
+  text-align: justify;
+  line-height: normal;
+   margin-left: 20px;
+    margin-right: 20px;
+}
+}
+ 
