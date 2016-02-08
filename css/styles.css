@@ -2,7 +2,32 @@ body {
   width: 100%;
   height: 100%;
 }
+nav {
+  background-color: black;
+  height: 50px;
+  position: top;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+nav .icon1 i {
+  margin-bottom: 15px;
+  color: white;
+  margin-left: 40px;
+   margin-top: 20px;
+}
+nav .icon2 i {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: white;
 
+}
+nav .icon3 i {
+  margin-bottom: 15px;
+  color: white;
+  margin-top: 20px;
+  margin-right: 40px;
+}
 header {
   width: 100%;
   height: 600px;
@@ -188,26 +213,45 @@ margin-left: 70px;
     background-color: rgb(231,231,231);
     height: 100px;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
+    align-items:center;
   }
-.banner_inscription .left {
-  display: flex;
-  width: 400px;
-}
-
-.left .bouton_email p {
-  background-color: white;
-  color:black;
-  margin-left: 550px;
-  width:100px;
-  text-align: center;
-  padding-top: 10px;
+  .button {
+    display: none;
+    height: 200px;
+    display: flex;
+    align-items:center;
+  }
+.btn-medium {
+  color:#C0C0C0;
+  border:2px solid #C0C0C0;
+  padding-top: 12px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 2px;
-  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+
 }
+
+.btn-threehouse {
+  color:white;
+  letter-spacing: 2px;
+  background-color: black;
+  /*border:2px solid #6AD58B;*/
+  /*box-shadow: 3px 3px 4px black;*/
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.banner_inscription p {
+  margin-left: 10px;
+
+}
+
 
 .logo  {
   display: flex;
@@ -224,9 +268,17 @@ footer {
   justify-content:center;
 }
 ul {
+  
   list-style-type: none;
   font-size: 11px;
   line-height: 20px;
+
+}
+footer .voila{
+  display: flex;
+}
+footer .list-respon2{
+  display: flex;
 }
 ul li  {
  
@@ -301,12 +353,44 @@ ul li  {
    margin-left: 20px;
     margin-right: 20px;
 }
-footer .list-respon {
+footer {
+  display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+footer .voila {
   width: 50%;
+    
 }
 
 footer .list-respon2 {
-width: 50%;
+    width: 50%;
+}
+
+.banner_inscription {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    }
+
+  .banner_inscription p{
+    margin-top: 39px;
+    }
+.logo {
+  display: none;
+}
+.chevron p a{
+ 
+  display: none;
+
+}
+header .bouton-shop p {
+  display: none;
+}
+nav {
+
 }
 }
  
